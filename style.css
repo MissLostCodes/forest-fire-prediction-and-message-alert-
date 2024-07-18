@@ -1,0 +1,56 @@
+.container {
+    background-image: url("image.png");
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.main{
+    width: 100%;
+}
+.headings {
+    height: 300px; 
+}
+h1, h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inputs {
+    width: 100vh; 
+    max-width: 900px; 
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    font-size: 15px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    opacity: 0.5; 
+}
+input[type="text"]:focus {
+    border-color: orange;
+    outline: none;
+}
+.predict_btn {
+    margin-left: 80vh;
+    margin-top: 20px;
+}
+.predc {
+    margin-left: 50vh;
+    margin-top: 20px;
+    font-size:20px;
+    font-weight: bold;
+}
